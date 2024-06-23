@@ -4,8 +4,8 @@
       
  2)Create measures to calculate the count of orders (‘total orders’), sum of revenue (‘total revenue’) and sum of profit (‘total profit’)
    hint(You can use DISTINCTCOUNT or COUNTROWS functions to calculate total orders, and a SUM function to calculate total revenue and profit)
+   
 3) BONUS: Define new measures to calculate total revenue and profit without referencing the calculated columns in the sales table 
-
 hint(An iterator function like SUMX allows you to multiply the units sold by the RELATED product price for each transaction and sum the results)
 
 KPI
